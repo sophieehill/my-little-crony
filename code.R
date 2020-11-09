@@ -7,10 +7,13 @@ library(igraph)
 # load network data
 people <- read_csv("people.csv")
 connections <- read_csv("connections.csv")
+
+
 # calculate betweeness in order to scale nodes
 graph <- igraph::graph.data.frame(connections, directed = F)
 degree_value <- degree(graph, mode = "in")
 people$icon.size <- degree_value[match(people$id, names(degree_value))] + 40
+
 
 # add attributes
 people$label <- people$id
@@ -45,7 +48,12 @@ people$title <- paste0("<p>", people$desc,"</p>")
 # connections$label <- connections$type
 connections$title <- paste0("<p>", connections$detail, "</p>")
 # connections$color <- ifelse(connections$type=="contract", "#f77272", "#dbd9db")
-connections$color <- "#dbd9db"
+# connections$color <- "#dbd9db"
+# color edges according to type
+connections <- connections %>% mutate(color = case_when(type=="contract" ~ "#f77272",
+                                                        type=="donor" ~ "#76a6e8",
+                                                        TRUE ~ "#dbd9db"))
+connections$value <- ifelse(is.na(connections$contract_size), 5, connections$contract_size)
 
 # save datasets to call in Shiny
 save(people, file = "people.RData")
@@ -53,7 +61,7 @@ save(connections, file = "connections.RData")
 
 # make graph
 visNetwork(nodes=people, edges=connections, width = "100%") %>% 
-  visEdges(width=5, color="#dbd9db") %>%
+  visEdges(scaling=list(min=4, max=40)) %>%
   visNodes(scaling=list(min=40, max=50)) %>%
   visOptions(highlightNearest = list(enabled = T, degree = 2, hover = T)) %>%
   visInteraction(hover=TRUE, zoomView = TRUE) %>%

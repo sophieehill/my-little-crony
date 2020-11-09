@@ -9,20 +9,10 @@ server <- function(input, output) {
         load("people.RData")
         load("connections.RData")
         
-        # create legend for nodes
-        people.unique <- people %>% 
-            select(type, shape, icon.color, icon.code) %>% 
-            unique()
-        legend.nodes <- data.frame(label = people.unique$type, 
-                   shape = "icon",
-                   icon.code = people.unique$icon.code, 
-                   icon.size = 10, 
-                   icon.color = people.unique$icon.color)
-        
 
         visNetwork(people, connections, width = "160%", height = "150%") %>%
            #  visIgraphLayout() %>%
-            visEdges(width=5) %>%
+            visEdges(scaling=list(min=4, max=40)) %>%
             visNodes(scaling=list(min=30)) %>%
             visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T)) %>%
             visInteraction(hover=TRUE, zoomView = TRUE,
@@ -34,8 +24,7 @@ server <- function(input, output) {
                  max-width:200px;overflow-wrap: normal') %>%
             visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -50)) %>%
             addFontAwesome() %>%
-           #  visLegend(addNodes=legend.nodes) %>%
-            visLayout(randomSeed = 12)
+            visLayout(randomSeed = 02143)
     })
 }
 
@@ -58,12 +47,14 @@ ui <- fluidPage(
                    style = "font-size:20px;")),
     sidebarLayout(
         sidebarPanel(
-        h4("Navigation"), br(),
+        h4("Guide"), br(),
         tags$ul(
-            tags$li(em("Scroll")," to zoom"), br(),
-            tags$li(em("Drag")," to move around"), br(),
+            tags$li(em("Scroll")," to zoom"), 
+            tags$li(em("Drag")," to move around"),
             tags$li(em("Hover")," on icons and connections for more info"), 
-            style = "font-size:15px;"),
+            style = "font-size:15px;"), br(),
+        p("Red lines represent", span("government contracts", style="color:#f77272"), " and blue lines represent ", span("political donations.", style="color:#76a6e8"), style="font-size:15px"), 
+          p("The width of the line is scaled according to the size of the", span("contract", style="color:#f77272"), "or ", span("donation.", style="color:#76a6e8"), style="font-size:15px"),
         hr(),
         p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"),
           HTML("&bull;"),
