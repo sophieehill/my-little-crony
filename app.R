@@ -4,9 +4,6 @@ library(tidyverse)
 library(metathis)
 
 
-# clean data
-source("code.R")
-
 server <- function(input, output) {
     output$network <- renderVisNetwork({
         load("people.RData")
@@ -27,7 +24,7 @@ server <- function(input, output) {
            #  visIgraphLayout() %>%
             visEdges(width=5) %>%
             visNodes(scaling=list(min=30)) %>%
-            visOptions(highlightNearest = list(enabled = T, degree = 2, hover = T)) %>%
+            visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T)) %>%
             visInteraction(hover=TRUE, zoomView = TRUE,
                            navigationButtons = TRUE,
                            tooltipStyle = 'position: fixed;visibility:hidden;padding: 5px;
@@ -63,9 +60,9 @@ ui <- fluidPage(
         sidebarPanel(
         h4("Navigation"), br(),
         tags$ul(
-            tags$li("Scroll to zoom"), br(),
-            tags$li("Drag to move around"), br(),
-            tags$li("Hover on icons and connections for more info"), 
+            tags$li(em("Scroll")," to zoom"), br(),
+            tags$li(em("Drag")," to move around"), br(),
+            tags$li(em("Hover")," on icons and connections for more info"), 
             style = "font-size:15px;"),
         hr(),
         p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"),
