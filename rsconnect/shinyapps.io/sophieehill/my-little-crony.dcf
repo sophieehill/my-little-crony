@@ -5,6 +5,6 @@ account: sophieehill
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3185634
-bundleId: 3836233
+bundleId: 3836320
 url: https://sophieehill.shinyapps.io/my-little-crony/
-when: 1604901784.24709
+when: 1604903254.78866

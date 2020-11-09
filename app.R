@@ -43,8 +43,8 @@ ui <- fluidPage(
     # metadata for social sharing
     meta() %>%
         meta_social(
-            title = "metathis",
-            description = "<meta> and social media cards for web things in R",
+            title = "My Little Crony",
+            description = "An interactive visualization of Tory cronyism during the pandemic",
             url = "https://sophieehill.shinyapps.io/my-little-crony/",
             image = "https://www.sophie-e-hill.com/img/crony_preview.png",
             image_alt = "An image for social media cards",
