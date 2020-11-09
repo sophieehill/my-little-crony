@@ -10,7 +10,7 @@ connections <- read_csv("connections.csv")
 # calculate betweeness in order to scale nodes
 graph <- igraph::graph.data.frame(connections, directed = F)
 degree_value <- degree(graph, mode = "in")
-people$icon.size <- degree_value[match(people$id, names(degree_value))] + 20
+people$icon.size <- degree_value[match(people$id, names(degree_value))] + 40
 
 # add attributes
 people$label <- people$id
@@ -42,7 +42,8 @@ people$title <- paste0("<p>", people$desc,"</p>")
 
 # connections$label <- connections$type
 connections$title <- paste0("<p>", connections$detail, "</p>")
-connections$edge.color <- "darkblue"
+# connections$color <- ifelse(connections$type=="contract", "#f77272", "#dbd9db")
+connections$color <- "#dbd9db"
 
 # save datasets to call in Shiny
 save(people, file = "people.RData")
