@@ -47,14 +47,18 @@ ui <- fluidPage(
                    style = "font-size:20px;")),
     sidebarLayout(
         sidebarPanel(
-        h4("Guide"), br(),
+        h4("Guide"),
         tags$ul(
             tags$li(em("Scroll")," to zoom"), 
             tags$li(em("Drag")," to move around"),
-            tags$li(em("Hover")," on icons and connections for more info"), 
-            style = "font-size:15px;"), br(),
-        p("Red lines represent", span("government contracts", style="color:#f77272"), " and blue lines represent ", span("political donations.", style="color:#76a6e8"), style="font-size:15px"), 
-          p("The width of the line is scaled according to the size of the", span("contract", style="color:#f77272"), "or ", span("donation.", style="color:#76a6e8"), style="font-size:15px"),
+            tags$li(em("Hover"),"or ", em("tap"), "icons and connections for more info"), 
+            style = "font-size:15px;"), 
+        p("The lines represent:", style="font-size:15px"),
+        p(HTML("&horbar;"), "government contracts", style="color:#f77272;font-size:15px"),
+        p(HTML("&horbar;"), "political donations", style="color:#76a6e8;font-size:15px"),
+        p(HTML("&horbar;"), "other connections (e.g. family, employer)", style="color:grey;font-size:15px"),
+        br(),
+        p("Thicker lines indicate more valuable contracts or donations.", style = "font-size:15px;"),
         hr(),
         p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"),
           HTML("&bull;"),
