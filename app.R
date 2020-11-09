@@ -1,6 +1,8 @@
 library(shiny)
 library(visNetwork)
 library(tidyverse)
+library(metathis)
+
 
 # clean data
 source("code.R")
@@ -41,14 +43,44 @@ server <- function(input, output) {
 }
 
 ui <- fluidPage(
+    # metadata for social sharing
+    meta() %>%
+        meta_social(
+            title = "metathis",
+            description = "<meta> and social media cards for web things in R",
+            url = "https://sophieehill.shinyapps.io/my-little-crony/",
+            image = "https://www.sophie-e-hill.com/img/crony_preview.png",
+            image_alt = "An image for social media cards",
+            twitter_creator = "@sophie_e_hill",
+            twitter_card_type = "summary",
+            twitter_site = "@sophie_e_hill"
+        ),
+    
     titlePanel("My Little Crony"),
-    verticalLayout(
-        p("A visualization of the connections between", strong("Tory politicians"), "and", strong("companies being awarded government contracts during the pandemic,"), "based on reporting by", a(href="https://www.opendemocracy.net/en/dark-money-investigations/", "openDemocracy,"), a(href="https://bylinetimes.com/", "Byline Times,"), "and more."),
-        p(em("Scroll up/down to zoom in/out, drag to move around. Hover on icons and connections for more info.")),
-        visNetworkOutput("network", height="80vh", width="100%"),
-        p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"), "(", a(href="https://twitter.com/sophie_e_hill", "@sophie_e_hill"), "). The data and code for this app are publicly available on", a(href="https://github.com/sophieehill/my-little-crony", "Github."),"Please", a(href="https://www.sophie-e-hill.com/#contact", "contact me"), "with any corrections, comments, or suggestions!")
+    verticalLayout(p("A visualization of the connections between", strong("Tory politicians"), "and", strong("companies being awarded government contracts during the pandemic,"), "based on reporting by", a(href="https://www.opendemocracy.net/en/dark-money-investigations/", "openDemocracy,"), a(href="https://bylinetimes.com/", "Byline Times,"), "and more.",
+                   style = "font-size:20px;")),
+    sidebarLayout(
+        sidebarPanel(
+        h4("Navigation"), br(),
+        tags$ul(
+            tags$li("Scroll to zoom"), br(),
+            tags$li("Drag to move around"), br(),
+            tags$li("Hover on icons and connections for more info"), 
+            style = "font-size:15px;"),
+        hr(),
+        p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"),
+          HTML("&bull;"),
+         "Code on", a(href="https://github.com/sophieehill/my-little-crony", "Github"),
+         HTML("&bull;"), 
+          "Follow me on",
+          a(href="https://twitter.com/sophie_e_hill", "Twitter"),
+          style="font-size:15px;"), 
+        width=3),
+        mainPanel(
+        visNetworkOutput("network", height="80vh", width="100%"), width=9
     )
-    )
+)
+)
 
 shinyApp(ui = ui, server = server)
 
