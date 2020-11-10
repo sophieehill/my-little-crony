@@ -61,14 +61,4 @@ connections$value <- ifelse(is.na(connections$contract_size), 5, connections$con
 save(people, file = "people.RData")
 save(connections, file = "connections.RData")
 
-# make graph
-visNetwork(nodes=people, edges=connections, width = "100%") %>% 
-  visEdges(scaling=list(min=4, max=40)) %>%
-  visNodes(scaling=list(min=40, max=50)) %>%
-  visOptions(highlightNearest = list(enabled = T, degree = 2, hover = T)) %>%
-  visInteraction(hover=TRUE, zoomView = TRUE) %>%
-  visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -50)) %>%
-  addFontAwesome() %>%
-visLayout(randomSeed = 12) # to have always the same network  
-
 
