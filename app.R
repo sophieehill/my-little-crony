@@ -6,16 +6,22 @@ library(metathis)
 
 # List of choices for selectInput
 load("people.RData")
-choices <- as.list(1:length(people$id))
-names(choices) <- people$id
+node_choices <- as.list(1:length(people$id))
+names(node_choices) <- people$id
+
+load("connections.RData")
+edge_choices <- as.list(1:length(unique(connections$type)))
+names(edge_choices) <- unique(connections$type)
 
 server <- function(input, output) {
     output$network <- renderVisNetwork({
         load("people.RData")
         load("connections.RData")
-        
-
-        visNetwork(people[input$select,], connections, width = "160%", height = "150%") %>%
+    
+        visNetwork(people[input$selected_nodes,], 
+                   connections %>% filter(type %in% unique(connections$type)#FIXME [input$selected_edges] 
+                   ),
+                                          width = "160%", height = "150%") %>%
             visEdges(scaling=list(min=4, max=40)) %>%
             visNodes(scaling=list(min=30)) %>%
             visOptions(highlightNearest = list(enabled = T, degree = 0, hover = T),
@@ -79,13 +85,21 @@ ui <- fluidPage(
     )
     ),
     pickerInput(
-        inputId = "select",
+        inputId = "selected_edges",
         label = "Choose your own adventure",
-        choices = choices,
-        selected = choices,
+        choices = edge_choices,
+        selected = edge_choices,
         multiple = T,
         options = list(`actions-box` = TRUE)
-)
+        ),
+    pickerInput(
+        inputId = "selected_nodes",
+        label = "Choose your cronies",
+        choices = node_choices,
+        selected = node_choices,
+        multiple = T,
+        options = list(`actions-box` = TRUE)
+    )
 )
 
 shinyApp(ui = ui, server = server)
