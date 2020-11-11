@@ -22,7 +22,7 @@ server <- function(input, output) {
                 -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                  max-width:200px;overflow-wrap: normal') %>%
-            visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -50)) %>%
+            visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -90)) %>%
             addFontAwesome() %>%
             visLayout(randomSeed = 02143)
     })

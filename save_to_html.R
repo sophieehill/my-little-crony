@@ -7,7 +7,8 @@ load("connections.RData")
 visNetwork(people, connections, width = "600px", height = "500px") %>%
   visEdges(scaling=list(min=4, max=40)) %>%
   visNodes(scaling=list(min=30)) %>%
-  visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T)) %>%
+  visOptions(highlightNearest = list(enabled = T, degree = 0, hover = T),
+             nodesIdSelection=TRUE) %>%
   visInteraction(hover=TRUE, zoomView = TRUE,
                  navigationButtons = TRUE,
                  tooltipStyle = 'position: fixed;visibility:hidden;padding: 5px;
