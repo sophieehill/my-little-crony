@@ -21,7 +21,7 @@ Babylon Health,Dominic Cummings,Dominic Cummings served as a Communications advi
 Babylon Health,Matt Hancock,"Matt Hancock appeared in a <a target=""_blank"" href=""https://www.theguardian.com/politics/2018/nov/30/matt-hancock-accused-of-breaching-code-over-gp-app-endorsement"">paid ""advertorial"" for Babylon Health</a> in the Evening Standard",job,
 Conservative party,Matt Hancock,Matt Hancock is a Conservative MP and government minister,member,
 Conservative party,Globus (Shetland),"Globus (Shetland) has donated <a target=""_blank"" href=""http://search.electoralcommission.org.uk/?currentPage=1&rows=10&query=globus&sort=AcceptedDate&order=desc&tab=1&et=pp&et=ppm&et=tp&et=perpar&et=rd&isIrishSourceYes=true&isIrishSourceNo=true&prePoll=false&postPoll=true&register=gb&register=ni&register=none&optCols=Register&optCols=CampaigningName&optCols=AccountingUnitsAsCentralParty&optCols=IsSponsorship&optCols=IsIrishSource&optCols=RegulatedDoneeType&optCols=CompanyRegistrationNumber&optCols=Postcode&optCols=NatureOfDonation&optCols=PurposeOfVisit&optCols=DonationAction&optCols=ReportedDate&optCols=IsReportedPrePoll&optCols=ReportingPeriodName&optCols=IsBequest&optCols=IsAggregation"">more than £350,000</a> to the Tories since 2016",donor,350
-UK government,Globus (Shetland),"Globus (Shetland) one of several firms awarded a <a target=""_blank"" href=""https://bylinetimes.com/2020/09/16/company-conservative-donations-government-ppe-procurement-deal/"">£93 million PPE contract</a> by the UK government",contract,93000
+UK government,Globus (Shetland),"Globus (Shetland) was awarded a <a target=""_blank"" href=""https://bylinetimes.com/2020/09/16/company-conservative-donations-government-ppe-procurement-deal/"">£93 million PPE contract</a> by the UK government",contract,93000
 UK government,Conservative party,The Conservatives have been in government since 2010 (in coalition) and since 2015 as a single-party government,member,
 UK government,Boris Johnson,Boris Johnson is the Prime Minister,member,
 Conservative party,Boris Johnson,Boris Johnson is a Conservative MP and currently Prime Minister,member,
@@ -33,7 +33,7 @@ UK government,Edward Argar,Edward Argar is a Conservative MP and government mini
 Serco,Edward Argar,Edward Argar was formerly head of UK and Europe public affairs at Serco,job,
 Rupert Soames,Nicholas Soames,Rupert and Nicholas Soames are brothers,family,
 Conservative party,Nicholas Soames,Nicholas Soames was a Conservative MP,member,
-UK government,Randox,"Randox has been awarded <a target=""_blank"" href=""https://www.theguardian.com/world/2020/nov/04/tory-linked-firm-involved-in-testing-failure-awarded-new-347m-covid-contract"">contracts for COVID-19 testing worth nearly £500 million</a> unopposed, despite the company having to recall tests over the summer due to fears of contamination",contract,
+UK government,Randox,"Randox has been awarded <a target=""_blank"" href=""https://www.theguardian.com/world/2020/nov/04/tory-linked-firm-involved-in-testing-failure-awarded-new-347m-covid-contract"">contracts for COVID-19 testing worth nearly £500 million</a> unopposed, despite the company having to recall tests over the summer due to fears of contamination",contract,480000
 Randox,Owen Paterson,"Conservative MP Owen Paterson is <a target=""_blank"" href=""https://www.theguardian.com/world/2020/nov/04/tory-linked-firm-involved-in-testing-failure-awarded-new-347m-covid-contract"">paid £100,000 per year by Randox</a> to serve as a ""consultant""",job,
 UK 2020,Owen Paterson,"Think tank ""UK 2020"" founded by Conservative MP Owen Patterson",member,
 UK 2020,Unknown donors,"Conservative MP Owen Paterson received at least £39,000 from unknown donors to fund overseas trips via his thinktank ""UK 2020""",donor,39
@@ -42,7 +42,7 @@ UK 2020,Christopher Bullivant,"Christopher Bullivant was a member of rightwing t
 Owen Paterson,Christopher Bullivant,Conservative MP Owen Paterson granted Christopher Bullivant a parliamentary pass,informal,
 Owen Paterson,Matt Ridley,Owen Paterson was married to Matt Ridley's sister Rose Paterson,family,
 UK government,P14 Medical,"P14 Medical was awarded a <a target=""_blank"" href=""https://www.opendemocracy.net/en/dark-money-investigations/government-accused-of-cronyism-after-tory-councillor-wins-156m-covid-contract/"">£156 million contract</a> to import PPE from China, without any competition",contract,156000
-P14 Medical,Steve Dechan,"Steve Dechan, a Conservative local councillor, is the founder of P14 Medical",job,
+P14 Medical,Steve Dechan,"Steve Dechan, a former Conservative local councillor, is the founder of P14 Medical",job,
 UK government,Ayanda Capital,"Ayanda Capital, a family investment fund with no prior links to the healthcare sector, was awarded a £252 million contract to supply face masks, which were then found to be faulty",contract,252000
 Liz Truss,Andrew Mills,Andrew Mills is an adviser to Tory minister Liz Truss,job,
 Ayanda Capital,Andrew Mills,Andrew Mills was an adviser to Ayanda Capital and brokered the deal under which Ayanda was to provide 50 million face masks to the UK government,job,
@@ -63,7 +63,7 @@ Conservative party,Owen Paterson,Owen Paterson is a Conservative MP,job,
 Conservative party,John Penrose,John Penrose is a Conservative MP,job,
 Conservative party,David Cameron,David Cameron was a Conservative Prime Minister,job,
 Conservative party,Liz Truss,Liz Truss is a Conservative MP and minister,job,
-Conservative party,Steve Dechan,Steve Dechan is a Conservative local councillor for Stroud,job,
+Conservative party,Steve Dechan,"Steve Dechan was a Conservative local councillor for Stroud, until he stood down in August 2020",job,
 Conservative party,Michelle Mone,Michelle Mone was made into a Conservative peer by David Cameron in 2015,job,
 Knox House Trust,Anthony Page,Anthony Page is the Director of the Family Office at Knox House Trust,job,
 Knox Group,Knox House Trust,Knox House Trust is part of the Knox group of companies,corporate,
@@ -153,7 +153,13 @@ Mary Wakefield,The Spectator,Mary Wakefield is a columnist and editor at The Spe
 Boris Johnson,The Spectator,"Boris Johnson was <target=""_blank"" href=""https://en.wikipedia.org/wiki/The_Spectator"">editor of The Spectator</a> from 1999-2005",job,
 Boris Johnson,Mary Wakefield,"Mary Wakefield began her career at The Spectator when she <a target=""_blank"" href=""https://www.tatler.com/article/spectator-magazine-social-web-links-to-tory-cabinet"">won a travel writing competition</a> judged by then-editor Boris Johnson",job,
 Humphry Wakefield,Mary Wakefield,Mary Wakefield is the daughter of Humphry Wakefield,family,
-Emily Duncan,Centre for Policy Studies,"Emily Duncan is the <a target=""_blank"" href=""https://www.cps.org.uk/about/our-team/emily-duncan/"">Chief Operating Officer</a> at the rightwing think tank, Centre for Policy Studies",,
-Emily Duncan,New Schools Network,"Emily Duncan was previously <a target=""_blank"" href=""https://www.cps.org.uk/about/our-team/emily-duncan/"">Head of External Relations</a> at the New Schools Network",,
-Fraser Nelson,The Spectator,"Fraser Nelson is the <a target=""_blank"" href=""https://en.wikipedia.org/wiki/Fraser_Nelson"">editor of The Spectator</a>",,
-Fraser Nelson,Centre for Policy Studies,"Fraser Nelson is a <a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/officers/0bK8OgD7QhYev4WxoRSMml7AXFU/appointments"">director at the Centre for Policy Studies</a>",,
+Emily Duncan,Centre for Policy Studies,"Emily Duncan is the <a target=""_blank"" href=""https://www.cps.org.uk/about/our-team/emily-duncan/"">Chief Operating Officer</a> at the rightwing think tank, Centre for Policy Studies",job,
+Emily Duncan,New Schools Network,"Emily Duncan was previously <a target=""_blank"" href=""https://www.cps.org.uk/about/our-team/emily-duncan/"">Head of External Relations</a> at the New Schools Network",job,
+Fraser Nelson,The Spectator,"Fraser Nelson is the <a target=""_blank"" href=""https://en.wikipedia.org/wiki/Fraser_Nelson"">editor of The Spectator</a>",job,
+Fraser Nelson,Centre for Policy Studies,"Fraser Nelson is a <a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/officers/0bK8OgD7QhYev4WxoRSMml7AXFU/appointments"">director at the Centre for Policy Studies</a>",job,
+James Frayne,Rachel Wolf,"James Frayne is <a target=""_blank"" href=""https://www.conservativehome.com/thetorydiary/2019/11/the-conservativehome-columnists-and-the-conservative-party-manifesto.html"">married to Rachel Wolf</a>",family,
+Rachel Wolf,David Cameron,"Rachel Wolf was an <a target=""_blank"" href=""https://www.conservativehome.com/thecolumnists/2019/09/rachel-wolf-in-defence-of-cameron.html"">education and innovation adviser at Number 10</a> while David Cameron was Prime Minister",job,
+James Frayne,Michael Gove,"James Frayne was <a target=""_blank"" href=""https://policyexchange.org.uk/author/james-frayne/"">Director of Communications for the Department for Education 2011-12</a>, when Michael Gove was Education Secretary",job,
+James Frayne,Policy Exchange,"James Frayne is <a target=""_blank"" href=""https://policyexchange.org.uk/author/james-frayne/"">Director of Policy & Strategy</a> at Policy Exchange",job,
+James Frayne,North East Says No,"James Frayne was <a target=""_blank"" href=""https://policyexchange.org.uk/author/james-frayne/"">Campaign Director</a> for North East Says No",job,
+Dominic Cummings,North East Says No,"Dominic Cummings was a <a target=""_blank"" href=""https://www.theguardian.com/politics/2019/nov/12/dominic-cummings-honed-strategy-2004-vote-north-east"">""strategic adviser""</a> to North East Says No",,

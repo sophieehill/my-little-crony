@@ -11,11 +11,11 @@ server <- function(input, output) {
         
 
         visNetwork(people, connections, width = "160%", height = "150%") %>%
-           #  visIgraphLayout() %>%
             visEdges(scaling=list(min=4, max=40)) %>%
             visNodes(scaling=list(min=30)) %>%
-            visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T)) %>%
-            visInteraction(hover=TRUE, zoomView = TRUE,
+            visOptions(highlightNearest = list(enabled = T, degree = 0, hover = T),
+                       nodesIdSelection=TRUE) %>%
+            visInteraction(hover=TRUE, zoomView = TRUE, 
                            navigationButtons = TRUE,
                            tooltipStyle = 'position: fixed;visibility:hidden;padding: 5px;
                 font-family: sans-serif;font-size:14px;font-color:#000000;background-color: #e3fafa;
@@ -53,6 +53,7 @@ ui <- fluidPage(
             tags$li(em("Drag")," to move around"),
             tags$li(em("Hover"),"or ", em("tap"), "icons and connections for more info"), 
             style = "font-size:15px;"), 
+        p("You can also use the drop-down menu to locate a particular individual or organization in the network.", style="font-size:15px"), br(),
         p("The lines represent:", style="font-size:15px"),
         p(HTML("&horbar;"), "government contracts", style="color:#f77272;font-size:15px"),
         p(HTML("&horbar;"), "political donations", style="color:#76a6e8;font-size:15px"),
