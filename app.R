@@ -29,6 +29,8 @@ server <- function(input, output) {
 }
 
 ui <- fluidPage(
+    # Google analytics script
+    tags$head(includeHTML(("google-analytics.html"))),
     # metadata for social sharing
     meta() %>%
         meta_social(
