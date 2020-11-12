@@ -63,6 +63,8 @@ ui <- fluidPage(
         br(),
         p("Thicker lines indicate more valuable contracts or donations.", style = "font-size:15px;"),
         hr(),
+        p("The icons represent:", style="font-size:15px"),
+        p(HTML("&horbar;"), "government contracts", style="color:#f77272;font-size:15px"),
         p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"),
           HTML("&bull;"),
          "Code on", a(href="https://github.com/sophieehill/my-little-crony", "Github"),
