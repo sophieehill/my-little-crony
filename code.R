@@ -15,7 +15,8 @@ people <- people[order(people$id),]
 graph <- igraph::graph.data.frame(connections, directed = F)
 degree_value <- degree(graph, mode = "in")
 sort(degree_value)
-people$icon.size <- degree_value[match(people$id, names(degree_value))] + 40
+# scaling factor 
+people$icon.size <- degree_value[match(people$id, names(degree_value))] + 80
 
 sort(betweenness(graph, v=V(graph), directed=FALSE))
 
@@ -51,7 +52,6 @@ people <- people %>% mutate(shape = "icon",
 people$title <- paste0("<p>", people$desc,"</p>")
 people$font.size <- people$icon.size/2
 
-
 # connections$label <- connections$type
 connections$title <- paste0("<p>", connections$detail, "</p>")
 # color edges according to type
@@ -66,6 +66,7 @@ connections$value <- as.integer(as.character(connections$value))
 save(people, file = "people.RData")
 save(connections, file = "connections.RData")
 
+# making a few subgraphs
 # subgraph: just donors and contracts
 connections2 <- connections %>% filter(type=="donor" | type=="contract")
 connections.ids <- cbind(connections2$to, connections2$from)
@@ -96,7 +97,7 @@ drop.list <- c("Andrew Mills")
 people4 <- people4 %>% filter(!id %in% drop.list)
 
 
-# preview
+# saving subgraphs as standalone html files
 visNetwork(people4, connections4) %>%
   visEdges(scaling=list(min=4, max=40)) %>%
   visNodes(scaling=list(min=30)) %>%

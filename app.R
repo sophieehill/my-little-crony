@@ -11,9 +11,9 @@ server <- function(input, output) {
         
 
         visNetwork(people, connections, width = "160%", height = "150%") %>%
-            visEdges(scaling=list(min=4, max=40)) %>%
-            visNodes(scaling=list(min=30)) %>%
-            visOptions(highlightNearest = list(enabled = T, degree = 0, hover = T),
+            visEdges(scaling=list(min=8, max=40)) %>%
+            visNodes(scaling=list(min=100, max=100)) %>%
+            visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T),
                        nodesIdSelection=TRUE) %>%
             visInteraction(hover=TRUE, zoomView = TRUE, 
                            navigationButtons = TRUE,
@@ -22,7 +22,7 @@ server <- function(input, output) {
                 -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                  max-width:200px;overflow-wrap: normal') %>%
-            visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -90)) %>%
+            visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -150)) %>%
             addFontAwesome() %>%
             visLayout(randomSeed = 02143)
     })
