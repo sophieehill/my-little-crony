@@ -14,13 +14,13 @@ The script `code.R` adds some attributes to the data to aid visualization, like 
 The file `app.R` contains the Shiny app. It can be run locally on your machine or you can see the final product [here on the web](https://sophieehill.shinyapps.io/my-little-crony/)!
 
 ## Newbie
-# Install R from https://cran.r-project.org/
-# Update your ~/.Rprofile with 
+### Install R from https://cran.r-project.org/
+### Update your ~/.Rprofile with 
     local({r <- getOption("repos")
        r["CRAN"] <- "https://cloud.r-project.org"
        options(repos=r)
     )
-In the my-little-crony directory run:
+### In the my-little-crony directory run:
     R -e "install.packages("visNetwork")"
     R -e "install.packages("tidyverse")"
     R -e "install.packages("metathis")"
