@@ -16,9 +16,11 @@ graph <- igraph::graph.data.frame(connections, directed = F)
 degree_value <- degree(graph, mode = "in")
 sort(degree_value)
 # scaling factor 
-people$icon.size <- degree_value[match(people$id, names(degree_value))] + 80
+people$icon.size <- degree_value[match(people$id, names(degree_value))] + 20
+big.icons <- c("UK government", "Conservative party")
+people$icon.size <- ifelse(people$id %in% big.icons, 40, people$icon.size)
+people$icon.size <- as.integer(people$icon.size)
 
-sort(betweenness(graph, v=V(graph), directed=FALSE))
 
 # add attributes
 people$label <- people$id
@@ -66,39 +68,7 @@ connections$value <- as.integer(as.character(connections$value))
 save(people, file = "people.RData")
 save(connections, file = "connections.RData")
 
-# making a few subgraphs
-# subgraph: just donors and contracts
-connections2 <- connections %>% filter(type=="donor" | type=="contract")
-connections.ids <- cbind(connections2$to, connections2$from)
-people.id2 <- people$id %in% connections.ids
-people2 <- people[people.id2,]
-drop.list <- c("Michael Gove", "Kate Bingham", "Alpha Solway", "Scottish government",
-               "Unknown donors", "UK 2020", "David Cameron")
-people2 <- people2 %>% filter(!id %in% drop.list)
-
-# subgraph: Wolf/Frayne
-names3 <- c("Rachel Wolf", "James Frayne", "Public First",
-            "Dominic Cummings", "David Cameron", "Michael Gove")
-connections3 <- connections %>% filter(from %in% names3 | to %in% names3)
-connections.ids <- cbind(connections3$to, connections3$from)
-people3 <- people[(people$id %in% connections.ids),]
-drop.list <- c("Policy Exchange", "Humphry Wakefield", "Babylon Health",
-               "Mary Wakefield", "David Meller", "Dido Harding",
-               "Jayroma", "Andrew Feldman")
-people3 <- people3 %>% filter(!id %in% drop.list)
-
-# subgraph: tax havens
-names4 <- c("Mauritius", "Ayanda Capital", "British Virgin Islands",
-            "Purple Surgical", "Win Billion Investment Group")
-connections4 <- connections %>% filter(from %in% names4 | to %in% names4)
-connections.ids <- cbind(connections4$to, connections4$from)
-people4 <- people[(people$id %in% connections.ids),]
-drop.list <- c("Andrew Mills")
-people4 <- people4 %>% filter(!id %in% drop.list)
-
-
-# saving subgraphs as standalone html files
-visNetwork(people4, connections4) %>%
+visNetwork(people, connections) %>%
   visEdges(scaling=list(min=4, max=40)) %>%
   visNodes(scaling=list(min=30)) %>%
   visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T)) %>%
@@ -110,8 +80,8 @@ visNetwork(people4, connections4) %>%
                 -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                  max-width:200px;overflow-wrap: normal') %>%
-  visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -80)) %>%
+  visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -20)) %>%
   addFontAwesome() %>%
-  visLayout(randomSeed = 02143) %>% visSave("temp.html")
+  visLayout(randomSeed = 02143)
 
 
