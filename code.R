@@ -16,9 +16,9 @@ graph <- igraph::graph.data.frame(connections, directed = F)
 degree_value <- degree(graph, mode = "in")
 sort(degree_value)
 # scaling factor 
-people$icon.size <- degree_value[match(people$id, names(degree_value))] + 20
+people$icon.size <- degree_value[match(people$id, names(degree_value))] + 25
 big.icons <- c("UK government", "Conservative party")
-people$icon.size <- ifelse(people$id %in% big.icons, 40, people$icon.size)
+people$icon.size <- ifelse(people$id %in% big.icons, 50, people$icon.size)
 people$icon.size <- as.integer(people$icon.size)
 
 
@@ -57,9 +57,11 @@ people$font.size <- people$icon.size/2
 # connections$label <- connections$type
 connections$title <- paste0("<p>", connections$detail, "</p>")
 # color edges according to type
-connections <- connections %>% mutate(color = case_when(type=="contract" ~ "#f77272",
+connections <- connections %>% mutate(color.color = case_when(type=="contract" ~ "#f77272",
                                                         type=="donor" ~ "#76a6e8",
                                                         TRUE ~ "#dbd9db"))
+connections$color.highlight <- "yellow"
+connections$color.hover <- "yellow"
 connections$value <- ifelse(is.na(connections$contract_size), 5, connections$contract_size)
 # make sure "value" is saved as an integer variable
 connections$value <- as.integer(as.character(connections$value))
@@ -69,8 +71,8 @@ save(people, file = "people.RData")
 save(connections, file = "connections.RData")
 
 visNetwork(people, connections) %>%
-  visEdges(scaling=list(min=4, max=40)) %>%
-  visNodes(scaling=list(min=30)) %>%
+  visEdges(scaling=list(min=8, max=50)) %>%
+  visNodes(scaling=list(min=50, max=500)) %>%
   visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T)) %>%
   visInteraction(hover=TRUE, zoomView = TRUE,
                  multiselect=TRUE,
@@ -80,7 +82,7 @@ visNetwork(people, connections) %>%
                 -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                  max-width:200px;overflow-wrap: normal') %>%
-  visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -20)) %>%
+  visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -30)) %>%
   addFontAwesome() %>%
   visLayout(randomSeed = 02143)
 

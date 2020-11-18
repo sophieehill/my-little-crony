@@ -11,8 +11,8 @@ server <- function(input, output) {
         
 
         visNetwork(people, connections, width = "160%", height = "150%") %>%
-            visEdges(scaling=list(min=8, max=40)) %>%
-            visNodes(scaling=list(min=100, max=100)) %>%
+            visEdges(scaling=list(min=8, max=50)) %>%
+            visNodes(scaling=list(min=50, max=500)) %>%
             visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T),
                        nodesIdSelection=TRUE) %>%
             visInteraction(hover=TRUE, zoomView = TRUE, 
@@ -22,7 +22,7 @@ server <- function(input, output) {
                 -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                  max-width:200px;overflow-wrap: normal') %>%
-            visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -150)) %>%
+            visPhysics(solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -30)) %>%
             addFontAwesome() %>%
             visLayout(randomSeed = 02143)
     })
@@ -63,8 +63,6 @@ ui <- fluidPage(
         br(),
         p("Thicker lines indicate more valuable contracts or donations.", style = "font-size:15px;"),
         hr(),
-        p("The icons represent:", style="font-size:15px"),
-        p(HTML("&horbar;"), "government contracts", style="color:#f77272;font-size:15px"),
         p("Created by", a(href="https://sophie-e-hill.com/", "Sophie E. Hill"),
           HTML("&bull;"),
          "Code on", a(href="https://github.com/sophieehill/my-little-crony", "Github"),
