@@ -36,7 +36,8 @@ people <- people %>% mutate(shape = "icon",
                                               type=="group" ~ "black",
                                               type=="tax haven" ~ "#489749",
                                               type=="church" ~ "brown",
-                                              type=="news" ~ "grey"),
+                                              type=="news" ~ "grey",
+                                              type=="NHS" ~ "#000080"),
                             icon.code = case_when(type=="person" ~ "f007",
                                               type=="firm" ~ "f1ad",
                                               type=="political party" ~ "f0c0",
@@ -48,7 +49,8 @@ people <- people %>% mutate(shape = "icon",
                                               type=="group" ~ "f0c0",
                                               type=="tax haven" ~ "f155",
                                               type=="church" ~ "f02d",
-                                              type=="news" ~ "f1ea"),
+                                              type=="news" ~ "f1ea",
+                                              type=="NHS" ~ "f0f8"),
                             icon.face = "FontAwesome",
                             icon.weight = "bold")
 people$title <- paste0("<p>", people$desc,"</p>")
@@ -57,8 +59,8 @@ people$font.size <- people$icon.size/2
 # connections$label <- connections$type
 connections$title <- paste0("<p>", connections$detail, "</p>")
 # color edges according to type
-connections <- connections %>% mutate(color.color = case_when(type=="contract" ~ "#f77272",
-                                                        type=="donor" ~ "#76a6e8",
+connections <- connections %>% mutate(color.color = case_when(type=="contract" ~ "#fc9a9a",
+                                                        type=="donor" ~ "#95bbf0",
                                                         TRUE ~ "#dbd9db"))
 connections$color.highlight <- "yellow"
 connections$color.hover <- "yellow"
