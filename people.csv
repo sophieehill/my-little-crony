@@ -1,139 +1,142 @@
-﻿id,type,desc
-Topham Guerin,firm,Topham Guerin is a New Zealand-based political consultancy
-Sean Topham,person,Sean Topham is a PR professional and founding partner of Topham Guerin
-Ben Guerin,person,Ben Guerin is a PR professional and founding partner of Topham Guerin
-Conservative party,political party,The UK Conservative party has been in government since 2010
-Michael Gove,person,Michael Gove is a Conservative MP and Minister for the Cabinet Office
-Dominic Cummings,person ,Dominic Cummings was chief adviser to the Prime Minister
-Public First,firm,Public First is a London-based research and communications firm
-New Schools Network,charity,"New Schools Network is a charity that supports groups setting up ""free schools"""
-Babylon Health,firm,Babylon Health is a for-profit health service provider
-Matt Hancock,person,Matt Hancock is a Conservative MP and Health Secretary
-New Frontiers Foundation,think tank,New Frontiers Foundation was a rightwing think tank
-Business for Sterling,political campaign,"Business for Sterling was a campaign against Britain joining the Euro, founded 1998"
-Rachel Wolf,person,Rachel Wolf is a founding partner of Public First and co-author of the 2019 Tory manifesto
-James Frayne,person,James Frayne is a founding partner of Public First
-Globus (Shetland),firm,Globus (Shetland) is a firm that manufactures protective equipment
-UK government,government,UK government
-Boris Johnson,person,Boris Johnson is the Prime Minister
-Leader's Club,group,"The Leader's Club is an exclusive dining club for donors who give at least £50,000 to the Conservatives"
-Haraldur Agustsson,person,Haraldur Agustsson is the CEO of Globus Group and a major Conservative donor
-Serco,firm,Serco is a global contracting firm
-Edward Argar,person,Edward Argar is a Conservative MP and junior minister
-Rupert Soames,person,Rupert Soames is CEO of Serco
-Nicholas Soames,person,Nicholas Soames is a former Conservative MP
-Randox,firm,Randox is a global health services firm
-Owen Paterson,person,Owen Paterson is a Conservative MP
-UK 2020,think tank,UK 2020 is a secretive rightwing think tank founded by Owen Paterson
-Unknown donors,unknown,Unknown donors
-Christopher Bullivant,person,Christopher Bullivant is a conservative writer
-Matt Ridley,person,Matt Ridley is a Conservative hereditary peer
-Steve Dechan,person,Steve Dechan is a former Conservative local councillor in Stroud
-P14 Medical,firm,P14 Medical is a small medical device supplier owned by Steve Dechan
-Liz Truss,person,Liz Truss is a Conservative MP and minister
-Andrew Mills,person,Andrew Mills is an adviser to the UK Board of Trade
-Ayanda Capital,firm,Ayanda Capital is an investment fund registered in Mauritius
-Michelle Mone,person,Michelle Mone is a businesswoman and Conservative peer
-PPE Medpro,firm,PPE Medpro is a company that supplies PPE
-John Penrose,person,John Penrose is a Conservative MP
-Dido Harding,person,"Dido Harding is a businesswoman, Conservative peer, and head of NHS Test and Trace program"
-McKinsey,firm,McKinsey is a global consulting firm
-David Cameron,person,David Cameron is a former Conservative Prime Minister
-Anthony Page,person,Anthony Page is founder of PPE Medpro
-Lancaster Knox,firm,Lancaster Knox is a high-end tax and accountancy firm
-Knox Group,firm,Knox Group is a group of companies founded by businessman Douglas Barrowman
-Douglas Barrowman,person,Douglas Barrowman is a Scottish businessman
-Knox House Trust,firm,"Knox House Trust is a corporate wealth and investment management based in the Isle of Man, a tax haven"
-Deborah Feldman,person,Deborah Feldman works for PR firm Topham Guerin and previously worked on the 2015 campaign for the Conservatives
-Andrew Feldman,person,"Andrew Feldman is a barrister, businessman, and a Conservative peer"
-Jayroma,firm,Jayroma was a London-based clothing company run by Andrew Feldman
-Kate Bingham,person,"Kate Bingham is a biochemist, venture capitalist, and chair of the UK Vaccine Taskforce"
-Jesse Norman,person,Jesse Norman is a Conservative MP and government minister
-Patrick Vallance,person,Patrick Vallance is the Chief Scientific Adviser to the UK government
-GlaxoSmithKline,firm,GlaxoSmithKline is a multinational pharmaceutical company
-Rachel Johnson,person,Rachel Johnson is a British journalist and sister of Conservative PM Boris Johnson
-Jo Johnson,person,"Jo Johnson is a former Conservative MP and minister, who was elevated to the House of Lords in 2019"
-Ivo Dawnay,person,Ivo Dawnay is a director and consultant with the National Trust
-Tom Bingham,person,Tom Bingham was a prominent British judge
-Max Johnson,person,Max Johnson is an investment banker and half-brother of Conservative PM Boris Johnson
-REVIV Global,firm,"REVIV Global is a ""wellness"" company that provides  IV therapy and vitamin injections"
-Globus Group,firm,Globus Group is a large UK-based manufacturing company
-Alpha Solway,firm,Alpha Solway is a company that manufactures PPE
-Mauritius,tax haven,Mauritius is one of the world's worst tax havens
-Isle of Man,tax haven,The Isle of Man is regarded as a tax haven
-Scottish government,government,Scottish government
-Meller Designs,firm,Meller Designs is a firm that imports and sells fashion and home accessories
-James Bethell,person,James Bethell is a Conservative peer and a government minister
-David Meller,person,David Meller is a British businessman and Conservative donor
-Meller Group,firm,The Meller Group is a cosmetics and fashion firm
-Clipper Logistics,firm,Clipper Logistics is a Leeds-based retail logistics firm
-Steve Parkin,person,Steve Parkin is founder of Clipper Logistics and a major Conservative donor
-Policy Exchange,think tank,Policy Exchange is a Conservative-leaning think tank founded by Michael Gove
-Theodore Agnew,person,Theodore Agnew is a Conservative peer and businessman
-Purple Surgical,firm,Purple Surgical is a UK-based manufacturer of single-use surgical devices
-British Virgin Islands,tax haven,The British Virgin Islands are a tax haven
-Win Billion Investment Group,firm,Win Billion Investment Group is a company registered in the British Virgin Islands
-Exclusive Brethren,church,The Exclusive Brethren is a subset of the Christian Evangelical movement Plymouth Brethren and is known for its secretive practices
-Unispace Global,firm,Unispace Global is a design firm
-Gareth Hales,person,Gareth Hales is a prominent member of the Evangelical Christian group Exclusive Brethren
-Tower Supplies,firm,Tower Supplies is a PPE and workwear supplier
-Charlie Aris,person,Charlie Aris is CEO of Tower Supplies and is linked to the Evangelical Christian group Exclusive Brethren
-UBT,firm,"UBT (""Universal Business Team"") is a business advisory group that is linked to the Evangelical Christian group Exclusive Brethren"
-The Bloomhill Trust,church,The Bloomhill Trust is part of OneSchool Global
-OneSchool Global,church,OneSchool Global is an educational organization associated with the Evangelical Christian group the Plymouth Brethren
-Charles Allen Campbell,person,Charles Allen Campbell is a trustee at The Bloomhill Trust and a director at Blueleaf Ltd
-Blueleaf,firm,Blueleaf Ltd is a non-specialised wholesale trade firm
-Techniclean Supply Ltd,firm,Techniclean Supply is a company that supplies cleaning chemicals and equipment
-Tim Browning,person,Tim Browning was a director at Techniclean Supply and is linked to the Evangelical Christian group Exclusive Brethren
-Medco Solutions,firm,Medco Solutions is a company that supplies medical devices
-Ross Robertson,person,Ross Robertson is a director of Medo Solutions
-Fulmer Education Trust,church,Fulmer Education Trust is part of the OneSchool Global network
-Admiral Associates,firm,Admiral Associates is a London-based PR agency
-Angus Collingwood-Cameron,person,Angus Collingwood-Cameron is company secretary of Admiral Associates
-Chillingham Wild Cattle Association,firm,Chillingham Wild Cattle Association runs the Chillingham Wild Cattle park in Northumberland
-Humphry Wakefield,person,"Humphry Wakefield is an English aristocrat, owner of Chillingham Castle, and father-in-law of Dominic Cummings"
-Mary Wakefield,person,"Mary Wakefield is a columnist and editor at The Spectator, and is married to Dominic Cummings"
-The Spectator,news,The Spectator is a weekly magazine that is generally supportive of the Conservative party
-Emily Duncan,person,"Emily Duncan is the <a target=""_blank"" href=""https://www.cps.org.uk/about/our-team/emily-duncan/"">Chief Operating Officer</a> at the rightwing think tank, Centre for Policy Studies"
-Centre for Policy Studies,think tank,The Centre for Policy Studies is a rightwing think tank that was founded in 1974 by Keith Joseph and Margaret Thatcher
-Fraser Nelson,person,Fraser Nelson is the editor of The Spectator
-North East Says No,political campaign,"North East Says No (NESNO) was a political campaign against the devolution of North East England in the <a target=""_blank"" href=""https://en.wikipedia.org/wiki/2004_North_East_England_devolution_referendum"">2004 referendum</a>"
-Michael Spencer,person,Michael Spencer is a British businessman
-Philip Dunne,person,Philip Dunne is a Conservative MP
-Faculty Science Ltd,firm,"Faculty Science is an <a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/company/08873131"">Artifical intelligence firm</a> founded in 2014"
-Mark Warner,person,"Mark Warner is the <a target=""_blank"" href=""https://faculty.ai/about-us/"">CEO and co-founder of Faculty</a>"
-Ben Warner,person,"Ben Warner was a data scientist for Vote Leave <a target=""_blank"" href=""https://www.thetimes.co.uk/article/leave-campaigns-data-geek-joins-no-10-3klj3566j""> who now works for Downing Street</a>"
-Nicola Blackwood,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Nicola_Blackwood"">Nicola Blackwood</a> is a Conservative peer and former MP"
-Paul Bate,person,"Paul Bate is a <a target=""_blank"" href=""https://uk.linkedin.com/in/paul-bate-4b23855"">Commercial VP</a> at Babylon Health"
-Babylon Holdings,firm,"Babylon Holdings is a holding company <a target=""_blank"" href=""https://www.ft.com/content/1857cd9c-2afc-11e9-a5ab-ff8ef2b976c7"">registered in Jersey</a>"
-Jersey,tax haven,Jersey is a tax haven
-George Osborne,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/George_Osborne"">George Osborne</a> is a former Conservative MP and Chancellor of the Exchequer, and is now editor-in-chief of the daily newspaper The Evening Standard"
-Evening Standard,news,"The <a target=""_blank"" href=""https://en.wikipedia.org/wiki/Evening_Standard"">Evening Standard</a> is a free daily newspaper published in London"
-Emily Sheffield,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Emily_Sheffield"">Emily Sheffield</a> is editor of the Evening Standard"
-Mark Simmonds,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Mark_Simmonds"">Mark Simmonds</a> is a former Conservative MP"
-Circle Health,firm,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Circle_Health_Ltd"">Circle Health</a> is a healthcare firm co-founded by Ali Parsa, who also founded Babylon Health"
-Ali Parsa,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Ali_Parsa"">Ali Parsa</a> is a businessman who founded Circle Health and Babylon Health"
-Excalibur Healthcare Services,firm,Excalibur Healthcare Services is a British healthcare firm
-Ectoplasm,firm,"Ectoplasm is a company <a target=""_blank"" href=""https://opencorporates.com/companies/im/013201V"">registered in the Isle of Man</a>"
-Hanbury Strategy,firm,Hanbury Strategy is a lobbying and PR firm
-Paul Stephenson,person,Paul Stephenson co-founded lobbying and PR firm Hanbury Strategy
-Vote Leave,political campaign,"Vote Leave was a campaign group that supported the ""Leave"" option in the 2016 EU referendum"
-George Pascoe-Watson,person,George Pascoe-Watson is a journalist and public relations consultant
-Portland Communications,firm,Portland Communications is a PR and lobbying firm
-Natalie Pascoe-Watson,person,Natalie Pascoe-Watson is a PR consultant
-Tulchan Group,firm,Tulchan is a PR consultancy
-James O’Shaughnessy,firm,James O’Shaughnessy is a PR consultant
-Boston Consulting Group,firm,Boston Consulting Group is a global management consultancy
-Oxford Nanopore,firm,Oxford Nanopore is a DNA sequencing firm
-Alex Bourne,person,Alex Bourne runs Hinpack and is an acquaintance and former neighbour of Matt Hancock
-Hinpack,firm,Hinpack is a company that produces plastic cups and takeaway boxes for the catering industry
-Emily Gilruth,person,"Emily Gilruth is an <a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/company/04398739/officers"">owner and director at Topwood Ltd</a>, and is the sister of Matt Hancock"
-Topwood,firm,"Topwood Ltd is a firm that ""specialises in the secure storage, shredding and scanning of documents"". (<a  target=""_blank"" href=""https://www.bbc.com/news/uk-politics-56768601"">BBC News</a>)"
-NHS England,NHS,NHS England
-NHS Wales,NHS,NHS Wales
-Greensill Capital,firm,Greensill Capital
-Bill Crothers,person,Bill Crothers is a former British civil servant.
-Rishi Sunak,person,Rishi Sunak is the Chancellor of the Exchequer
-Lex Greensill,person,"Lex Greensill is an Australian businessman and founder of Greensill Capital, which went bust in March 2021."
-Sanjeev Gupta,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Sanjeev_Gupta"">Sanjeev Gupta</a> is an Indian-born British businessman, who operates in the steel and mining sectors."
-John Glen,person,John Glen is a Conservative MP and Treasury minister.
+﻿id,type,desc,group
+Topham Guerin,firm,Topham Guerin is a New Zealand-based political consultancy,COVID contracts
+Sean Topham,person,Sean Topham is a PR professional and founding partner of Topham Guerin,COVID contracts
+Ben Guerin,person,Ben Guerin is a PR professional and founding partner of Topham Guerin,COVID contracts
+Conservative party,political party,The UK Conservative party has been in government since 2010,
+Michael Gove,person,Michael Gove is a Conservative MP and Minister for the Cabinet Office,
+Dominic Cummings,person ,Dominic Cummings was chief adviser to the Prime Minister,
+Public First,firm,Public First is a London-based research and communications firm,COVID contracts
+New Schools Network,charity,"New Schools Network is a charity that supports groups setting up ""free schools""",
+Babylon Health,firm,Babylon Health is a for-profit health service provider,COVID contracts
+Matt Hancock,person,Matt Hancock is a Conservative MP and Health Secretary,
+New Frontiers Foundation,think tank,New Frontiers Foundation was a rightwing think tank,
+Business for Sterling,political campaign,"Business for Sterling was a campaign against Britain joining the Euro, founded 1998",
+Rachel Wolf,person,Rachel Wolf is a founding partner of Public First and co-author of the 2019 Tory manifesto,
+James Frayne,person,James Frayne is a founding partner of Public First,COVID contracts
+Globus (Shetland),firm,Globus (Shetland) is a firm that manufactures protective equipment,COVID contracts
+UK government,government,UK government,
+Boris Johnson,person,Boris Johnson is the Prime Minister,
+Leader's Club,group,"The Leader's Club is an exclusive dining club for donors who give at least £50,000 to the Conservatives",
+Haraldur Agustsson,person,Haraldur Agustsson is the CEO of Globus Group and a major Conservative donor,COVID contracts
+Serco,firm,Serco is a global contracting firm,COVID contracts
+Edward Argar,person,Edward Argar is a Conservative MP and junior minister,
+Rupert Soames,person,Rupert Soames is CEO of Serco,COVID contracts
+Nicholas Soames,person,Nicholas Soames is a former Conservative MP,
+Randox,firm,Randox is a global health services firm,COVID contracts
+Owen Paterson,person,Owen Paterson is a Conservative MP,
+UK 2020,think tank,UK 2020 is a secretive rightwing think tank founded by Owen Paterson,
+Unknown donors,unknown,Unknown donors,
+Christopher Bullivant,person,Christopher Bullivant is a conservative writer,
+Matt Ridley,person,Matt Ridley is a Conservative hereditary peer,
+Steve Dechan,person,Steve Dechan is a former Conservative local councillor in Stroud,COVID contracts
+P14 Medical,firm,P14 Medical is a small medical device supplier owned by Steve Dechan,COVID contracts
+Liz Truss,person,Liz Truss is a Conservative MP and minister,
+Andrew Mills,person,Andrew Mills is an adviser to the UK Board of Trade,COVID contracts
+Ayanda Capital,firm,Ayanda Capital is an investment fund registered in Mauritius,COVID contracts
+Michelle Mone,person,Michelle Mone is a businesswoman and Conservative peer,COVID contracts
+PPE Medpro,firm,PPE Medpro is a company that supplies PPE,COVID contracts
+John Penrose,person,John Penrose is a Conservative MP,
+Dido Harding,person,"Dido Harding is a businesswoman, Conservative peer, and head of NHS Test and Trace program",COVID contracts
+McKinsey,firm,McKinsey is a global consulting firm,COVID contracts
+David Cameron,person,David Cameron is a former Conservative Prime Minister,Greensill
+Anthony Page,person,Anthony Page is founder of PPE Medpro,COVID contracts
+Lancaster Knox,firm,Lancaster Knox is a high-end tax and accountancy firm,COVID contracts
+Knox Group,firm,Knox Group is a group of companies founded by businessman Douglas Barrowman,COVID contracts
+Douglas Barrowman,person,Douglas Barrowman is a Scottish businessman,COVID contracts
+Knox House Trust,firm,"Knox House Trust is a corporate wealth and investment management based in the Isle of Man, a tax haven",COVID contracts
+Deborah Feldman,person,Deborah Feldman works for PR firm Topham Guerin and previously worked on the 2015 campaign for the Conservatives,
+Andrew Feldman,person,"Andrew Feldman is a barrister, businessman, and a Conservative peer",COVID contracts
+Jayroma,firm,Jayroma was a London-based clothing company run by Andrew Feldman,COVID contracts
+Kate Bingham,person,"Kate Bingham is a biochemist, venture capitalist, and chair of the UK Vaccine Taskforce",COVID contracts
+Jesse Norman,person,Jesse Norman is a Conservative MP and government minister,
+Patrick Vallance,person,Patrick Vallance is the Chief Scientific Adviser to the UK government,
+GlaxoSmithKline,firm,GlaxoSmithKline is a multinational pharmaceutical company,COVID contracts
+Rachel Johnson,person,Rachel Johnson is a British journalist and sister of Conservative PM Boris Johnson,
+Jo Johnson,person,"Jo Johnson is a former Conservative MP and minister, who was elevated to the House of Lords in 2019",
+Ivo Dawnay,person,Ivo Dawnay is a director and consultant with the National Trust,
+Tom Bingham,person,Tom Bingham was a prominent British judge,
+Max Johnson,person,Max Johnson is an investment banker and half-brother of Conservative PM Boris Johnson,
+REVIV Global,firm,"REVIV Global is a ""wellness"" company that provides  IV therapy and vitamin injections",COVID contracts
+Globus Group,firm,Globus Group is a large UK-based manufacturing company,COVID contracts
+Alpha Solway,firm,Alpha Solway is a company that manufactures PPE,COVID contracts
+Mauritius,tax haven,Mauritius is one of the world's worst tax havens,Tax havens
+Isle of Man,tax haven,The Isle of Man is regarded as a tax haven,Tax havens
+Scottish government,government,Scottish government,
+Meller Designs,firm,Meller Designs is a firm that imports and sells fashion and home accessories,COVID contracts
+James Bethell,person,James Bethell is a Conservative peer and a government minister,COVID contracts
+David Meller,person,David Meller is a British businessman and Conservative donor,COVID contracts
+Meller Group,firm,The Meller Group is a cosmetics and fashion firm,COVID contracts
+Clipper Logistics,firm,Clipper Logistics is a Leeds-based retail logistics firm,COVID contracts
+Steve Parkin,person,Steve Parkin is founder of Clipper Logistics and a major Conservative donor,COVID contracts
+Policy Exchange,think tank,Policy Exchange is a Conservative-leaning think tank founded by Michael Gove,
+Theodore Agnew,person,Theodore Agnew is a Conservative peer and businessman,
+Purple Surgical,firm,Purple Surgical is a UK-based manufacturer of single-use surgical devices,COVID contracts
+British Virgin Islands,tax haven,The British Virgin Islands are a tax haven,Tax havens
+Win Billion Investment Group,firm,Win Billion Investment Group is a company registered in the British Virgin Islands,COVID contracts
+Exclusive Brethren,church,The Exclusive Brethren is a subset of the Christian Evangelical movement Plymouth Brethren and is known for its secretive practices,COVID contracts
+Unispace Global,firm,Unispace Global is a design firm,COVID contracts
+Gareth Hales,person,Gareth Hales is a prominent member of the Evangelical Christian group Exclusive Brethren,COVID contracts
+Tower Supplies,firm,Tower Supplies is a PPE and workwear supplier,COVID contracts
+Charlie Aris,person,Charlie Aris is CEO of Tower Supplies and is linked to the Evangelical Christian group Exclusive Brethren,COVID contracts
+UBT,firm,"UBT (""Universal Business Team"") is a business advisory group that is linked to the Evangelical Christian group Exclusive Brethren",
+The Bloomhill Trust,church,The Bloomhill Trust is part of OneSchool Global,
+OneSchool Global,church,OneSchool Global is an educational organization associated with the Evangelical Christian group the Plymouth Brethren,
+Charles Allen Campbell,person,Charles Allen Campbell is a trustee at The Bloomhill Trust and a director at Blueleaf Ltd,
+Blueleaf,firm,Blueleaf Ltd is a non-specialised wholesale trade firm,COVID contracts
+Techniclean Supply Ltd,firm,Techniclean Supply is a company that supplies cleaning chemicals and equipment,COVID contracts
+Tim Browning,person,Tim Browning was a director at Techniclean Supply and is linked to the Evangelical Christian group Exclusive Brethren,
+Medco Solutions,firm,Medco Solutions is a company that supplies medical devices,COVID contracts
+Ross Robertson,person,Ross Robertson is a director of Medo Solutions,
+Fulmer Education Trust,church,Fulmer Education Trust is part of the OneSchool Global network,
+Admiral Associates,firm,Admiral Associates is a London-based PR agency,COVID contracts
+Angus Collingwood-Cameron,person,Angus Collingwood-Cameron is company secretary of Admiral Associates,COVID contracts
+Chillingham Wild Cattle Association,firm,Chillingham Wild Cattle Association runs the Chillingham Wild Cattle park in Northumberland,
+Humphry Wakefield,person,"Humphry Wakefield is an English aristocrat, owner of Chillingham Castle, and father-in-law of Dominic Cummings",
+Mary Wakefield,person,"Mary Wakefield is a columnist and editor at The Spectator, and is married to Dominic Cummings",
+The Spectator,news,The Spectator is a weekly magazine that is generally supportive of the Conservative party,
+Emily Duncan,person,"Emily Duncan is the <a target=""_blank"" href=""https://www.cps.org.uk/about/our-team/emily-duncan/"">Chief Operating Officer</a> at the rightwing think tank, Centre for Policy Studies",
+Centre for Policy Studies,think tank,The Centre for Policy Studies is a rightwing think tank that was founded in 1974 by Keith Joseph and Margaret Thatcher,
+Fraser Nelson,person,Fraser Nelson is the editor of The Spectator,
+North East Says No,political campaign,"North East Says No (NESNO) was a political campaign against the devolution of North East England in the <a target=""_blank"" href=""https://en.wikipedia.org/wiki/2004_North_East_England_devolution_referendum"">2004 referendum</a>",
+Michael Spencer,person,Michael Spencer is a British businessman,
+Philip Dunne,person,Philip Dunne is a Conservative MP,
+Faculty Science Ltd,firm,"Faculty Science is an <a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/company/08873131"">Artifical intelligence firm</a> founded in 2014",COVID contracts
+Mark Warner,person,"Mark Warner is the <a target=""_blank"" href=""https://faculty.ai/about-us/"">CEO and co-founder of Faculty</a>",COVID contracts
+Ben Warner,person,"Ben Warner was a data scientist for Vote Leave <a target=""_blank"" href=""https://www.thetimes.co.uk/article/leave-campaigns-data-geek-joins-no-10-3klj3566j""> who now works for Downing Street</a>",COVID contracts
+Nicola Blackwood,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Nicola_Blackwood"">Nicola Blackwood</a> is a Conservative peer and former MP",
+Paul Bate,person,"Paul Bate is a <a target=""_blank"" href=""https://uk.linkedin.com/in/paul-bate-4b23855"">Commercial VP</a> at Babylon Health",COVID contracts
+Babylon Holdings,firm,"Babylon Holdings is a holding company <a target=""_blank"" href=""https://www.ft.com/content/1857cd9c-2afc-11e9-a5ab-ff8ef2b976c7"">registered in Jersey</a>",
+Jersey,tax haven,Jersey is a tax haven,Tax havens
+George Osborne,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/George_Osborne"">George Osborne</a> is a former Conservative MP and Chancellor of the Exchequer, and is now editor-in-chief of the daily newspaper The Evening Standard",
+Evening Standard,news,"The <a target=""_blank"" href=""https://en.wikipedia.org/wiki/Evening_Standard"">Evening Standard</a> is a free daily newspaper published in London",
+Emily Sheffield,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Emily_Sheffield"">Emily Sheffield</a> is editor of the Evening Standard",
+Mark Simmonds,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Mark_Simmonds"">Mark Simmonds</a> is a former Conservative MP",
+Circle Health,firm,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Circle_Health_Ltd"">Circle Health</a> is a healthcare firm co-founded by Ali Parsa, who also founded Babylon Health",COVID contracts
+Ali Parsa,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Ali_Parsa"">Ali Parsa</a> is a businessman who founded Circle Health and Babylon Health",
+Excalibur Healthcare Services,firm,Excalibur Healthcare Services is a British healthcare firm,COVID contracts
+Ectoplasm,firm,"Ectoplasm is a company <a target=""_blank"" href=""https://opencorporates.com/companies/im/013201V"">registered in the Isle of Man</a>",COVID contracts
+Hanbury Strategy,firm,Hanbury Strategy is a lobbying and PR firm,COVID contracts
+Paul Stephenson,person,Paul Stephenson co-founded lobbying and PR firm Hanbury Strategy,COVID contracts
+Vote Leave,political campaign,"Vote Leave was a campaign group that supported the ""Leave"" option in the 2016 EU referendum",
+George Pascoe-Watson,person,George Pascoe-Watson is a journalist and public relations consultant,COVID contracts
+Portland Communications,firm,Portland Communications is a PR and lobbying firm,COVID contracts
+Natalie Pascoe-Watson,person,Natalie Pascoe-Watson is a PR consultant,COVID contracts
+Tulchan Group,firm,Tulchan is a PR consultancy,COVID contracts
+James O’Shaughnessy,firm,James O’Shaughnessy is a PR consultant,
+Boston Consulting Group,firm,Boston Consulting Group is a global management consultancy,COVID contracts
+Oxford Nanopore,firm,Oxford Nanopore is a DNA sequencing firm,COVID contracts
+Alex Bourne,person,Alex Bourne runs Hinpack and is an acquaintance and former neighbour of Matt Hancock,COVID contracts
+Hinpack,firm,Hinpack is a company that produces plastic cups and takeaway boxes for the catering industry,COVID contracts
+Emily Gilruth,person,"Emily Gilruth is an <a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/company/04398739/officers"">owner and director at Topwood Ltd</a>, and is the sister of Matt Hancock",COVID contracts
+Topwood,firm,"Topwood Ltd is a firm that ""specialises in the secure storage, shredding and scanning of documents"". (<a  target=""_blank"" href=""https://www.bbc.com/news/uk-politics-56768601"">BBC News</a>)",COVID contracts
+NHS England,NHS,NHS England,
+NHS Wales,NHS,NHS Wales,
+Greensill Capital,firm,Greensill Capital,Greensill
+Bill Crothers,person,Bill Crothers is a former British civil servant.,Greensill
+Rishi Sunak,person,Rishi Sunak is the Chancellor of the Exchequer,Greensill
+Lex Greensill,person,"Lex Greensill is an Australian businessman and founder of Greensill Capital, which went bust in March 2021.",Greensill
+Sanjeev Gupta,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Sanjeev_Gupta"">Sanjeev Gupta</a> is an Indian-born British businessman, who operates in the steel and mining sectors.",Greensill
+John Glen,person,John Glen is a Conservative MP and Treasury minister.,Greensill
+David Brierwood,person,David Brierwood is a former investment banker and director at Greensill Capital.,Greensill
+Morgan Stanley,firm,Morgan Stanley is an investment bank.,Greensill
+Jeremy Heywood,person,Jeremy Heywood was a senior civil servant.,Greensill
