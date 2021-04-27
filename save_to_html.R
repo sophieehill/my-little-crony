@@ -1,7 +1,7 @@
-library("visNetwork")
-
-load("people.RData")
-load("connections.RData")
+# library("visNetwork")
+# 
+# load("people.RData")
+# load("connections.RData")
 
 
 visNetwork(people, connections, width = "1000px", height = "600px", 
