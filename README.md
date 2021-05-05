@@ -4,6 +4,8 @@ This repo contains the data and code for [My Little Crony](https://www.mylittlec
 
 Please feel free to contact me (sophie DOT eva DOT hill AT gmail DOT com) or submit a PR with any corrections, comments, or suggestions!
 
+![](gif_example.gif)
+
 ## Data
 The raw data is contained in two files: `people.csv` identifies individuals and organizations (i.e. the "nodes" of the network) and `connections.csv` identifies the links between individuals and organizations (i.e. the "edges" of the network).
 
