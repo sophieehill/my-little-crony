@@ -30,6 +30,7 @@ visNetwork(people, connections, width = "1000px", height = "600px",
   visLayout(randomSeed = 02143) %>%
   visSave(file = "crony.html", selfcontained = TRUE)
 
+
 visNetwork(people, connections, width = "600px", height = "600px") %>%
   visEdges(scaling=list(min=8, max=40), smooth=FALSE) %>%
   visNodes(scaling=list(min=100, max=100)) %>%
