@@ -1,8 +1,10 @@
 # My Little Crony
 
-This repo contains the data and code for my Shiny App, [My Little Crony](https://sophieehill.shinyapps.io/my-little-crony/), visualizing links between Tory politicians and the private companies being awarded government contracts during the pandemic (even without a tender process).
+This repo contains the data and code for [My Little Crony](https://www.mylittlecrony.com), a visualization of the links between Tory politicians and the companies being awarded government contracts during the pandemic.
 
-Please feel free to contact me (sophie DOT eva DOT hill AT gmail DOT com) with any corrections, comments, or suggestions!
+Please feel free to contact me (sophie DOT eva DOT hill AT gmail DOT com) or submit a PR with any corrections, comments, or suggestions!
+
+![](gif_example.gif)
 
 ## Data
 The raw data is contained in two files: `people.csv` identifies individuals and organizations (i.e. the "nodes" of the network) and `connections.csv` identifies the links between individuals and organizations (i.e. the "edges" of the network).
@@ -10,22 +12,17 @@ The raw data is contained in two files: `people.csv` identifies individuals and 
 ## Code
 The script `code.R` adds some attributes to the data to aid visualization, like specifying the icon type, colour, size. The data files are then resaved as `people.RData` and `connections.RData`.
 
-## Shiny app
-The file `app.R` contains the Shiny app. It can be run locally on your machine or you can see the final product [here on the web](https://sophieehill.shinyapps.io/my-little-crony/)!
+The script `save_to_html.R` takes the cleaned datasets (`people.RData` and `connections.RData`) and produces the visualization as a standalone HTML file called `crony.html`. This HTML file can be opened and viewed in any web browser.
 
-## Newbie
-### Install R from https://cran.r-project.org/
-### Update your ~/.Rprofile with:
-    local({r <- getOption("repos")
-       r["CRAN"] <- "https://cloud.r-project.org"
-       options(repos=r)
-    )
-### In the my-little-crony directory run (first time):
-    $ R 
-    > install.packages("visNetwork")
-    > install.packages("tidyverse")
-    > install.packages("metathis")
-    > install.packages("shiny")
-### Run the app:
-    R -e "shiny::runApp('.')"
+## Getting started with R
 
+If you are new to R, here is a quick guide to getting started with this repo:
+1. [Install R](https://www.r-project.org/)
+2. [Install RStudio](https://www.rstudio.com/products/rstudio/download/)
+3. Download a local copy of this repo (click on "Code" and then "Download ZIP")
+4. Open the project (`my-little-crony.Rproj`) in RStudio
+5. Install the required packages ("install.packages(packagename)")
+6. Run the code!
+
+## Acknowledgements
+This visualization relies on excellent investigative journalism by [Byline Times](https://bylinetimes.com/), [Open Democracy](https://www.opendemocracy.net/en/), [The Citizens](https://the-citizens.com/), and many others! The visualization itself relies on the awesome `[visNetwork](https://datastorm-open.github.io/visNetwork/)` R package.
