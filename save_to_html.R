@@ -24,6 +24,8 @@ visNetwork(people, connections, width = "1000px", height = "600px",
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                  max-width:200px;overflow-wrap: normal') %>%
   visPhysics(solver = "forceAtlas2Based", 
+             maxVelocity = 1000,
+             minVelocity = 5,
              forceAtlas2Based = list(gravitationalConstant = -150),
              stabilization = FALSE) %>%
   addFontAwesome() %>%
@@ -47,6 +49,8 @@ visNetwork(people, connections, width = "600px", height = "600px") %>%
                  border: 0px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
                  max-width:200px;overflow-wrap: normal') %>%
   visPhysics(solver = "forceAtlas2Based", 
+             maxVelocity = 1000,
+             minVelocity = 5,
              forceAtlas2Based = list(gravitationalConstant = -150),
              stabilization = FALSE) %>%
   addFontAwesome() %>%
