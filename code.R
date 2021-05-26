@@ -14,6 +14,7 @@ people <- people[order(people$id),]
 # calculate degree cenrality in order to scale nodes
 graph <- igraph::graph.data.frame(connections, directed = F)
 degree_value <- degree(graph, mode = "in")
+sort(degree_value)
 # scaling factor 
 people$icon.size <- degree_value[match(people$id, names(degree_value))] + 25
 big.icons <- c("UK government", "Conservative party")
@@ -21,10 +22,17 @@ people$icon.size <- ifelse(people$id %in% big.icons, 50, people$icon.size)
 people$icon.size <- as.integer(people$icon.size)
 
 
+# add photos
+photo_list <- c("Conservative party", "UK government", "Boris Johnson", "David Cameron", "Dominic Cummings", "Matt Hancock", "James Bethell", "Andrew Feldman")
+people <- people %>% mutate(shape = case_when(id %in% photo_list ~ "circularImage",
+                                              TRUE ~ "icon"),
+                            image = case_when(id %in% photo_list ~ paste0("https://raw.githubusercontent.com/sophieehill/my-little-crony/main/photos/compressed/", gsub(" ", "_", id), ".png"),
+                                              TRUE ~ NA_character_))
+
+
 # add attributes
 people$label <- people$id
-people <- people %>% mutate(shape = "icon",
-                            icon.color = case_when(type=="person" ~ "lightblue",
+people <- people %>% mutate(icon.color = case_when(type=="person" ~ "lightblue",
                                               type=="firm" ~ "#7b889c",
                                               type=="political party" ~ "#3377d6",
                                               type=="government" ~ "#3377d6",
