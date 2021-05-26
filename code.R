@@ -27,7 +27,9 @@ photo_list <- c("Conservative party", "UK government", "Boris Johnson", "David C
 people <- people %>% mutate(shape = case_when(id %in% photo_list ~ "circularImage",
                                               TRUE ~ "icon"),
                             image = case_when(id %in% photo_list ~ paste0("https://raw.githubusercontent.com/sophieehill/my-little-crony/main/photos/compressed/", gsub(" ", "_", id), ".png"),
-                                              TRUE ~ NA_character_))
+                                              TRUE ~ NA_character_),
+                            size = case_when(id %in% photo_list ~ as.integer(60),
+                                             TRUE ~ icon.size))
 
 
 # add attributes
