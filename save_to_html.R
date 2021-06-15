@@ -29,7 +29,7 @@ visNetwork(people, connections, width = "1000px", height = "600px",
              forceAtlas2Based = list(gravitationalConstant = -150),
              stabilization = FALSE) %>%
   addFontAwesome() %>%
-  visLayout(randomSeed = 02143, improvedLayout=FALSE) %>%
+  visLayout(randomSeed = 02143, improvedLayout=TRUE) %>%
   htmlwidgets::appendContent(htmltools::includeHTML("meta.html")) %>%
   visSave(file = "crony.html", selfcontained = TRUE)
 
@@ -55,7 +55,7 @@ visNetwork(people, connections, width = "600px", height = "600px") %>%
              forceAtlas2Based = list(gravitationalConstant = -150),
              stabilization = FALSE) %>%
   addFontAwesome() %>%
-  visLayout(randomSeed = 02143, improvedLayout=FALSE) %>%
+  visLayout(randomSeed = 02143, improvedLayout=TRUE) %>%
   htmlwidgets::appendContent(htmltools::includeHTML("meta.html")) %>%
   visSave(file = "crony_notitle.html")
 
