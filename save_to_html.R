@@ -10,7 +10,9 @@ visNetwork(people, connections, width = "1000px", height = "600px",
            submain=list(text="(It may take a few moments to load) \n",
                      style='font-family:Source Sans Pro, Helvetica, sans-serif;font-style:italic;font-size:14px;text-align:left;')) %>%
   visEdges(scaling=list(min=8, max=40), smooth=FALSE) %>%
-  visNodes(scaling=list(min=30, max=200)) %>%
+  visNodes(scaling=list(min=30, max=200), 
+           shapeProperties = list(useImageSize=FALSE, 
+                                  interpolation=FALSE)) %>%
   visOptions(highlightNearest = list(enabled = T, degree = 2, 
                                      hover = T, hideColor = 'rgba(200,200,200,0.5)',
                                      labelOnly=FALSE),
@@ -36,7 +38,9 @@ visNetwork(people, connections, width = "1000px", height = "600px",
 
 visNetwork(people, connections, width = "600px", height = "600px") %>%
   visEdges(scaling=list(min=8, max=40), smooth=FALSE) %>%
-  visNodes(scaling=list(min=100, max=100)) %>%
+  visNodes(scaling=list(min=100, max=100), 
+           shapeProperties = list(useImageSize=FALSE, 
+                                  interpolation=FALSE)) %>%
   visOptions(highlightNearest = list(enabled = T, degree = 2, 
                                      hover = T, hideColor = 'rgba(200,200,200,0.5)',
                                      labelOnly=FALSE),
