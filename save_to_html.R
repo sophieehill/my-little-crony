@@ -30,6 +30,7 @@ visNetwork(people, connections, width = "1000px", height = "600px",
              stabilization = FALSE) %>%
   addFontAwesome() %>%
   visLayout(randomSeed = 02143, improvedLayout=FALSE) %>%
+  htmlwidgets::appendContent(htmltools::includeHTML("meta.html")) %>%
   visSave(file = "crony.html", selfcontained = TRUE)
 
 
@@ -55,5 +56,6 @@ visNetwork(people, connections, width = "600px", height = "600px") %>%
              stabilization = FALSE) %>%
   addFontAwesome() %>%
   visLayout(randomSeed = 02143, improvedLayout=FALSE) %>%
+  htmlwidgets::appendContent(htmltools::includeHTML("meta.html")) %>%
   visSave(file = "crony_notitle.html")
 
