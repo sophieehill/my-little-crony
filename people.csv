@@ -1,4 +1,4 @@
-﻿id,type,desc,group
+id,type,desc,group
 Topham Guerin,firm,Topham Guerin is a New Zealand-based political consultancy,COVID contracts
 Sean Topham,person,Sean Topham is a PR professional and founding partner of Topham Guerin,COVID contracts
 Ben Guerin,person,Ben Guerin is a PR professional and founding partner of Topham Guerin,COVID contracts
@@ -165,3 +165,6 @@ Nathan Engelbrecht,person,Nathan Engelbrecht is a co-founder of Ayanda Capital.,
 Tim Whyte,person,"Tim Whyte is a former Goldman Sachs commodities trader, who later co-founded his own hedge fund.",
 Karen Brost Whyte,person,"Karen Brost Whyte is an American-born, London-based fashion designer.",
 Luxe Lifestyle,firm,Luxe Lifestyle is a firm owned by Karen Brost Whyte. She is the sole director and shareholder in the company.,
+Gina Coladangelo,person,Gina Coladangelo is the marketing and communications director at retailer Oliver Bonas and a non-executive director at the Department of Health and Social Care.,
+Roberto Coladangelo,person,"Roberto Coladangelo is an executive at Partnering Health Limited (PHL Group), a private healthcare company.",
+Partnering Health Limited,firm,Partnering Health Limited (PHL Group) is a private healthcare company.,
