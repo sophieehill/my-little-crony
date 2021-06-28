@@ -25,4 +25,4 @@ If you are new to R, here is a quick guide to getting started with this repo:
 6. Run the code!
 
 ## Acknowledgements
-This visualization relies on excellent investigative journalism by [Byline Times](https://bylinetimes.com/), [Open Democracy](https://www.opendemocracy.net/en/), [The Citizens](https://the-citizens.com/), and many others! The visualization itself relies on the awesome `[visNetwork](https://datastorm-open.github.io/visNetwork/)` R package.
+This visualization relies on excellent investigative journalism by [Byline Times](https://bylinetimes.com/), [Open Democracy](https://www.opendemocracy.net/en/), [The Citizens](https://the-citizens.com/), and many others! The visualization itself relies on the awesome [`visNetwork`](https://datastorm-open.github.io/visNetwork/) R package.
