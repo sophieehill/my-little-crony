@@ -2,7 +2,7 @@
 # load("people.RData")
 # load("connections.RData")
 
-visNetwork(people, connections, width = "1000px", height = "600px",
+visNetwork(people, connections, width = "1000px", height = "580px",
            main=list(text="My Little Crony",
                      style='font-family:Source Sans Pro, Helvetica, sans-serif;font-weight:bold;font-size:22px;text-align:left;'),
            submain=list(text="(It may take a few moments to load) \n",
