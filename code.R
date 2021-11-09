@@ -5,6 +5,7 @@ library(visNetwork)
 library(igraph)
 
 # load network data
+# (make sure to save csv's as CSV UTF8 to avoid encoding errors)
 people <- read_csv("people.csv")
 connections <- read_csv("connections.csv")
 
@@ -23,7 +24,11 @@ people$icon.size <- as.integer(people$icon.size)
 
 
 # add photos
-photo_list <- c("Conservative party", "UK government", "Boris Johnson", "David Cameron", "Dominic Cummings", "Matt Hancock", "James Bethell", "Andrew Feldman")
+photo_list <- c("Conservative party", "UK government",
+                "Boris Johnson", "David Cameron",
+                "Dominic Cummings", "Matt Hancock",
+                "James Bethell", "Andrew Feldman",
+                "Owen Paterson")
 people <- people %>% mutate(shape = case_when(id %in% photo_list ~ "circularImage",
                                               TRUE ~ "icon"),
                             image = case_when(id %in% photo_list ~ paste0("https://raw.githubusercontent.com/sophieehill/my-little-crony/main/photos/compressed/", gsub(" ", "_", id), ".png"),
@@ -80,6 +85,5 @@ connections$value <- as.integer(as.character(connections$value))
 # save datasets to call in Shiny
 save(people, file = "people.RData")
 save(connections, file = "connections.RData")
-
 
 

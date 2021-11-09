@@ -1,4 +1,4 @@
-id,type,desc,group
+﻿id,type,desc,group
 Topham Guerin,firm,Topham Guerin is a New Zealand-based political consultancy,COVID contracts
 Sean Topham,person,Sean Topham is a PR professional and founding partner of Topham Guerin,COVID contracts
 Ben Guerin,person,Ben Guerin is a PR professional and founding partner of Topham Guerin,COVID contracts
@@ -16,7 +16,7 @@ James Frayne,person,James Frayne is a founding partner of Public First,COVID con
 Globus (Shetland),firm,Globus (Shetland) is a firm that manufactures protective equipment,COVID contracts
 UK government,government,UK government,
 Boris Johnson,person,Boris Johnson is the Prime Minister,
-Leader's Club,group,"The Leader's Club is an exclusive dining club for donors who give at least £50,000 to the Conservatives",
+Leader's Club,group,"The Leader's Club is an exclusive dining club for donors who give at least ¬£50,000 to the Conservatives",
 Haraldur Agustsson,person,Haraldur Agustsson is the CEO of Globus Group and a major Conservative donor,COVID contracts
 Serco,firm,Serco is a global contracting firm,COVID contracts
 Edward Argar,person,Edward Argar is a Conservative MP and junior minister,
@@ -122,7 +122,7 @@ George Pascoe-Watson,person,George Pascoe-Watson is a journalist and public rela
 Portland Communications,firm,Portland Communications is a PR and lobbying firm,COVID contracts
 Natalie Pascoe-Watson,person,Natalie Pascoe-Watson is a PR consultant,COVID contracts
 Tulchan Group,firm,Tulchan is a PR consultancy,COVID contracts
-James O’Shaughnessy,firm,James O’Shaughnessy is a PR consultant,
+James O'Shaughnessy,firm,James O'Shaughnessy is a PR consultant,
 Boston Consulting Group,firm,Boston Consulting Group is a global management consultancy,COVID contracts
 Oxford Nanopore,firm,Oxford Nanopore is a DNA sequencing firm,COVID contracts
 Alex Bourne,person,Alex Bourne runs Hinpack and is an acquaintance and former neighbour of Matt Hancock,COVID contracts
@@ -154,11 +154,13 @@ Theresa May,person,Theresa May is a Conservative MP and former Prime Minister.,
 William Hobhouse,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Will_Hobhouse"">William Hobhouse</a> is a businessman and Tory donor.",
 Kate Hobhouse,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Kate_Hobhouse"">Kate Hobhouse</a> is an heiress whose family owns the luxury department store Fortnum & Mason.",
 Soane Britain,firm,Soane Britain is a furniture and upholstery company founded by designer Lulu Lytle.,
-Carrie Symonds,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Carrie_Symonds"">Carrie Symonds</a> is the fiancée of Boris Johnson and is a former Conservative party press officer.",
+Carrie Symonds,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Carrie_Symonds"">Carrie Symonds</a> is the fianc√©e of Boris Johnson and is a former Conservative party press officer.",
 Garfield Weston Foundation,charity,"The <a target=""_blank"" href=""https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/230260/charity-overview"">Garfield Weston Foundation</a> is a grant-making foundation and is registered as a charity in the UK.",
 Bunzl,firm,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Bunzl"">Bunzl</a> is an outsourcing firm.",
 Priti Patel,person,"<a target=""_blank"" href=""https://en.wikipedia.org/wiki/Priti_Patel"">Priti Patel</a> is a Conservative MP and is currently the Home Secretary.",
 Samir Jassal,person,"<a target=""_blank"" href=""https://www.bbc.com/news/uk-56667960"">Samir Jassal</a> is a former Conservative Party councillor and Conservative candidate for MP.",
+Munira Mirza,person,Munira Mirza is Director of the Number 10 Policy Unit under Boris Johnson.,
+Surbjit Shergill,person,"Surbjit Shergill <a target=""_blank"" href=""https://goodlawproject.org/update/patel-mirza-and-the-middlemen/"">acted as a middleman</a> for Pharmaceuticals Direct Ltd.",
 Pharmaceuticals Direct Ltd,firm,"<a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/company/03884028"">Pharmaceuticals Direct Ltd</a> is a company that sells pharmaceutical and healthcare products.",
 Times Place Brasseries Ltd,firm,"<a target=""_blank"" href=""https://find-and-update.company-information.service.gov.uk/company/08737045/officers"">Times Place Brasseries Ltd</a> is a restaurant company.",
 Nathan Engelbrecht,person,Nathan Engelbrecht is a co-founder of Ayanda Capital.,
@@ -168,3 +170,28 @@ Luxe Lifestyle,firm,Luxe Lifestyle is a firm owned by Karen Brost Whyte. She is 
 Gina Coladangelo,person,Gina Coladangelo is the marketing and communications director at retailer Oliver Bonas and a non-executive director at the Department of Health and Social Care.,
 Roberto Coladangelo,person,"Roberto Coladangelo is an executive at Partnering Health Limited (PHL Group), a private healthcare company.",
 Partnering Health Limited,firm,Partnering Health Limited (PHL Group) is a private healthcare company.,
+Siobhan Baillie,person,Siobhan Baillie is a Conservative MP.,
+Hydro Industries,firm,Hydro Industries is a water-based technology firm headquartered in Wales.,
+Guto Harri,person,Guto Harri is a communications consultant who formerly worked for Boris Johnson when he was Mayor of London.,
+Tom Turner,person,"Tom Turner is the <a target=""_blank"" href=""https://goodlawproject.org/news/michelle-donelan-partner-contracts/"">Commercial Head</a> at family-owned firm Stronghold Global.",
+Stronghold Global,firm,Stronghold Global is a family-owned workwear and PPE supplier.,
+Benjamin Turner,person,"Benjamin Turner is the managing director of Toffeln, a firm that sells ergonomic footwear for healthcare professionals.",
+Toffeln,firm,Toffeln is a Bristol-based firm that sells ergonomic footwear for healthcare professionals.,
+Unknown firms,unknown,Unknown firms,
+Philip Hulme,person,"Philip Hulme is the co-founder of Computacenter, a British computer services firm.",
+Computacenter,firm,Computacenter is a large computer services firm based in Hatfield.,
+Uniserve,firm,Universe is a British logistics firm.,
+Julia Lopez,person,Julia Lopez is a Conservative MP and government minister.,
+Ashraf Chohan,person,Ashraf Chohan is a doctor and Conservative party donor.,
+Rapid Clinic,firm,Rapid Clinic is a testing clinic set up in December 2020 by Ashraf Chohan.,
+Jamal Chohan,person,Jamal Chohan,
+Quick Clinics,firm,Quick Clinics is a COVID testing firm run by Jamal Chohan.,
+Qured,firm,Qured is a COVID testing firm.,
+Stephen John Oakly Caitlin,person,Stephen John Oakly Caitlin is a major Conservative party donor.,
+Paul Deighton,person,"Paul Deighton is a Conservative peer and was appointed <a target=""_blank"" href=""https://bylinetimes.com/2020/10/20/lord-deighton-government-ppe-tsar-hr-contract-chanzo/"">""PPE tsar""</a> by Boris Johnson during the pandemic.",
+Chanzo Limited,firm,Chanzo Limited is a human resources firm.,
+Jean Tomlin,person,Jean Tomlin,
+Honeywell Safety Products,firm,Honeywell Safety Products is a global PPE and industrial safety firm.,
+Jockey Club,firm,The Jockey Club is the largest commercial horse racing organisation in the UK.,
+Grand National,event,"The Grand National, held annually at Aintree Racecourse, is one of the most prominent horse racing events in the UK.",
+Rose Paterson,person,Rose Paterson was a British business executive and chair of the Aintree Racecourse.,
