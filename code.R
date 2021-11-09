@@ -3,6 +3,7 @@
 library(tidyverse)
 library(visNetwork)
 library(igraph)
+library(fontawesome)
 
 # load network data
 # (make sure to save csv's as CSV UTF8 to avoid encoding errors)
@@ -51,7 +52,8 @@ people <- people %>% mutate(icon.color = case_when(type=="person" ~ "lightblue",
                                               type=="tax haven" ~ "#489749",
                                               type=="church" ~ "brown",
                                               type=="news" ~ "grey",
-                                              type=="NHS" ~ "#000080"),
+                                              type=="NHS" ~ "#000080",
+                                              type=="horse" ~ "brown"),
                             icon.code = case_when(type=="person" ~ "f007",
                                               type=="firm" ~ "f1ad",
                                               type=="political party" ~ "f0c0",
@@ -64,7 +66,8 @@ people <- people %>% mutate(icon.color = case_when(type=="person" ~ "lightblue",
                                               type=="tax haven" ~ "f155",
                                               type=="church" ~ "f02d",
                                               type=="news" ~ "f1ea",
-                                              type=="NHS" ~ "f0f8"),
+                                              type=="NHS" ~ "f0f8",
+                                              type=="horse" ~ "f091"),
                             icon.face = "FontAwesome",
                             icon.weight = "bold")
 people$title <- paste0("<p>", people$desc,"</p>")
