@@ -11,9 +11,9 @@ visNetwork(people, connections, width = "1000px", height = "580px",
   visNodes(scaling=list(min=100, max=100), 
            shapeProperties = list(useImageSize=FALSE, 
                                   interpolation=FALSE)) %>%
-  visOptions(highlightNearest = list(enabled = T, degree = 2, 
+  visOptions(highlightNearest = list(enabled = T, degree = 1, 
                                      hover = T, 
-                                     hideColor = 'rgba(200,200,200,0.5)',
+                                     hideColor = 'rgba(200,200,200,0.2)',
                                      labelOnly=FALSE),
              nodesIdSelection=TRUE) %>%
   visInteraction(hover=TRUE, zoomView = TRUE,
